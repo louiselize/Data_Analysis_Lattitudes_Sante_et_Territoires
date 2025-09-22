@@ -1,0 +1,17 @@
+# Core data analysis
+pandas
+numpy
+
+# Excel support
+openpyxl
+
+# Visualisation
+matplotlib
+seaborn
+
+# Jupyter notebooks
+jupyter
+notebook
+
+# Géospatial (utile si tu bosses avec shapefiles ou Admin Express IGN plus tard)
+geopandas
