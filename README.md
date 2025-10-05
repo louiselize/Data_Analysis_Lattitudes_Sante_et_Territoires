@@ -31,3 +31,22 @@ Data_Analysis_Latitudes_Sante_et_Territoires/
 - Keep raw data intact for reproducibility.
 - Separate data processing (`scripts/`) from analysis (`notebooks/`).
 - Store all deliverables and results in a clear location (`analysis/`).
+
+### ⚙️ Installing Dependencies
+
+To run this project locally, you need to install the required Python libraries.
+They are listed in the [`requirements.txt`](./requirements.txt) file.
+
+```bash
+pip install -r requirements.txt
+```
+
+💡 **Tip**: It's best to install them inside a **virtual environment** to avoid version conflicts.
+
+Example using `venv`:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate      # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
